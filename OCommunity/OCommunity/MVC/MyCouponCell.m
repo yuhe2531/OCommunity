@@ -99,6 +99,7 @@
         _moneyNum.textColor = kBlack_Color_3;
         _beginUse.textColor = kBlack_Color_3;
         _useTime.textColor = kBlack_Color_3;
+        _storeNameL.textColor = kBlack_Color_3;
 
     }else{
        
@@ -107,7 +108,7 @@
         _moneyNum.textColor = kColorWithRGB(243, 86, 90);
         _beginUse.textColor = kColorWithRGB(100, 100, 100);
         _useTime.textColor = kColorWithRGB(100, 100, 100);
-
+        _storeNameL.textColor = kColorWithRGB(100, 100, 100);
 
     }
 }
@@ -119,13 +120,14 @@
         _moneyNum.textColor = kBlack_Color_3;
         _beginUse.textColor = kBlack_Color_3;
         _useTime.textColor = kBlack_Color_3;
+        _storeNameL.textColor = kBlack_Color_3;
     }else{
         _useImage.hidden = YES;
         _topImageV.image = [UIImage imageNamed:@"orderCell_topImage"];
         _moneyNum.textColor = kColorWithRGB(243, 86, 90);
         _beginUse.textColor = kColorWithRGB(100, 100, 100);
         _useTime.textColor = kColorWithRGB(100, 100, 100);
-
+        _storeNameL.textColor = kColorWithRGB(100, 100, 100);
     }
 }
 
